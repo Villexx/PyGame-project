@@ -1,51 +1,31 @@
-# 🏎️ Counter Flow
+# [cite_start]🏎️ Counter Flow [cite: 1]
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)](https://www.python.org/)
-[![PyGame](https://img.shields.io/badge/PyGame-%3E%3D_2.6.1-green?style=flat-square)](https://www.pygame.org/)
+## Objetivo
+[cite_start]Jogo 2D vertical de desvio de tráfego em alta velocidade (corrida infinita) com sistema de pontuação progressiva. [cite: 2]
 
-Projeto acadêmico desenvolvido para a disciplina de **Linguagem de Programação**. O *Counter Flow* é um jogo 2D vertical de desvio de tráfego em alta velocidade (corrida infinita) com sistema de pontuação progressiva.
+## Motivação
+[cite_start]Projeto acadêmico desenvolvido para a disciplina de Linguagem de Programação. [cite: 1]
 
----
+## Tecnologias Utilizadas
+* [cite_start]Python 3.x [cite: 1]
+* [cite_start]PyGame >= 2.6.1 [cite: 1]
 
-## 🛠️ Instalação e Execução
+## Instalação e Configuração
+[cite_start]Abra o terminal na pasta raiz do projeto dentro do VSCode e escolha uma das abordagens abaixo para instalar as dependências listadas no arquivo `requirements.txt`: [cite: 3]
 
-Abra o terminal na pasta raiz do projeto dentro do VSCode e escolha uma das abordagens abaixo para instalar as dependências listadas no arquivo `requirements.txt`:
+* [cite_start]**Opção 1 (Instalação Isolada - Recomendado):** Cria um ambiente virtual (`venv`) para isolar o PyGame dentro da pasta do projeto. [cite: 3]
+  * [cite_start]**Criar o ambiente virtual:** `python -m venv venv` [cite: 4]
+  * [cite_start]**Ativar no Windows (PowerShell):** `.\venv\Scripts\Activate.ps1` [cite: 4]
+  * [cite_start]**Ativar no Mac/Linux (Terminal):** `source venv/bin/activate` [cite: 4]
+  * [cite_start]**Instalar as dependências:** `pip install -r requirements.txt` [cite: 5]
+* [cite_start]**Opção 2 (Instalação Global):** Instala o PyGame diretamente no escopo global do seu usuário. [cite: 5]
+  * [cite_start]**Instalar as dependências:** `pip install -r requirements.txt` [cite: 6]
 
-### 🔹 Opção 1: Instalação Isolada (Localmente - Recomendado)
-Esta opção cria um ambiente virtual (`venv`) para isolar o PyGame dentro da pasta do projeto, evitando conflitos com outras instalações do Python no seu computador.
-
-1. **Criar o ambiente virtual:**
-    Execute o código abaixo no seu terminal para instalar o ambiente virtual local:
-        python -m venv venv
----
-2. **Ativar o ambiente virtual:**
-    No Windows (PowerShell):
-    Execute o código abaixo no seu terminal:
-        .\venv\Scripts\Activate.ps1
-
-    Ou no Mac/Linux (Terminal):
-    Execute o código abaixo no seu terminal:
-        source venv/bin/activate
-
-(Você saberá que deu certo quando o prefixo (venv) aparecer na linha do terminal)
-
-3. **Instalar as dependências via requirements.txt:**
-    Execute o código abaixo no seu terminal:
-        pip install -r requirements.txt
+## Como Executar
+1. [cite_start]Abra a pasta do projeto no VS Code. [cite: 3]
+2. [cite_start]Certifique-se de ter concluído a instalação das dependências. [cite: 3]
+3. [cite_start]Execute o arquivo principal a partir do terminal para iniciar o jogo: [cite: 6]
+   [cite_start]`python main.py` [cite: 6]
 
 ---
-
-🔹 Opção 2: Instalação Global
-Esta opção instala o PyGame diretamente no escopo global do seu usuário do sistema operacional, tornando a biblioteca acessível de qualquer local do computador, sem necessidade de ativação de ambiente.
-
-Instalar as dependências via requirements.txt diretamente:
-    Execute o código abaixo no seu terminal:
-        pip install -r requirements.txt
-
-🚀 Inicialização
-Independentemente do método de instalação escolhido, execute o arquivo principal para iniciar o jogo:
-    python main.py
-
-
-👤 Autor
-Victor (Villex) — GitHub
+[cite_start]**Desenvolvedor:** Victor (Villex) [cite: 6]
