@@ -1,4 +1,4 @@
-# 🏎️ Counter Flow
+# Counter Flow
 
 ## Objetivo
 Jogo 2D vertical de desvio de tráfego em alta velocidade (corrida infinita) com sistema de pontuação progressiva.
@@ -28,4 +28,4 @@ Abra o terminal na pasta raiz do projeto dentro do VSCode e escolha uma das abor
    `python main.py`
 
 ---
-**Desenvolvedor:** Victor (Villex)
+**Desenvolvedor:** Victor Baptista da Silva (RU: 4751786)
